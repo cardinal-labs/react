@@ -192,9 +192,9 @@ export default function NotificationCenter(
   return (
     <div
       className={cs(
-        'flex flex-col h-full shadow-md rounded-lg overflow-hidden border',
-        textColor,
-        bgColor
+        'flex flex-col h-full shadow-md rounded-lg overflow-hidden border backdrop-blur-3xl bg-black/5',
+        textColor
+        // bgColor
       )}
     >
       <Header
